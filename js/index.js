@@ -1,6 +1,6 @@
 /*
     Author: @HadiKhai
-    Date: 2020-10-01
+    Date: 2022-09-27
     Description: This script is used to compare the performance of different ways to fetch data asynchronously
     from the server.
 
