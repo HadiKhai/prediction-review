@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js" defer></script>
+    <script src="./js/api" defer></script>
+    <script src="./js/utils" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Prediction</title>
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="dogPhotoContainer">
+        </div>
+        <h1>
+            <span class="title">Prediction</span>
+        </h1>
+        <div id="allApproaches">
+            <h1>All Approaches at the same time</h1>
+            <form class="nameForm" id="predictionFormAll" autocomplete="off">
+                <div class="inputs-section">
+                    <label for="nameInputAll" >Enter your name</label>
+                    <input type="text" class="name-input" placeholder="Enter your name" required id="nameInputAll">
+                    <button type="submit" id="predictionButtonAll" class="submit-btn">Predict All</button>
+                </div>
+            </form>
+        </div>
+        <div id="firstApproach">
+            <h1>First Approach</h1>
+            <form class="nameForm" id="predictionForm1" autocomplete="off">
+                <div class="inputs-section">
+                    <label for="nameInput1" >Enter your name</label>
+                    <input type="text" class="name-input" placeholder="Enter your name" required id="nameInput1">
+                    <button type="submit" id="predictionButton1" class="submit-btn">Predict</button>
+                </div>
+            </form>
+            <div id="resultsContainer1" class="prediction">
+            </div>
+        </div>
+        <div id="secondApproach">
+            <h1>Second Approach</h1>
+            <form class="nameForm" id="predictionForm2" autocomplete="off">
+                <div class="inputs-section">
+                    <label for="nameInput2" >Enter your name</label>
+                    <input type="text" class="name-input" placeholder="Enter your name" required id="nameInput2">
+                    <button type="submit" id="predictionButton2" class="submit-btn">Predict</button>
+                </div>
+            </form>
+            <div id="resultsContainer2" class="prediction">
+            </div>
+        </div>
+    </div>
+</body>

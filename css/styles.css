@@ -1,0 +1,125 @@
+/* Language: css */
+/* Path: css/styles.css */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.mainContainer {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.dogPhoto{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.dogPhotoContainer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.nameForm {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+
+.inputs-section {
+    margin: 20px 0;
+}
+
+.inputs-section > label{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.inputs-section > input{
+    height: 50px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.inputs-section > button {
+    height: 50px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.inputs-section > button:disabled{
+    background-color: #333;
+    color: #f2f2f2;
+    cursor: not-allowed;
+}
+
+.prediction-result {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.prediction-result-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-left: 1rem;
+}
+
+.prediction-result-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+}
